@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <SwitchPreferenceCompat
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            app:key="talismanMode"
+            app:icon="@drawable/ic_baseline_fingerprint_24"
+            app:title="Talisman Mode"
+            android:summary="Enable Talisman UI"/>
+
+        <SwitchPreferenceCompat
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            app:key="dynamicChromaMode"
+            app:icon="@drawable/ic_baseline_format_color_fill_24"
+            app:title="Dynamic Chroma"
+            android:summary="Enable Dynamic Chroma Profiles"/>
+
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:title="Bulk Delete Chroma Profiles"
+            android:key="bulkDeleteChromaProfiles"
+            app:icon="@drawable/ic_baseline_delete_sweep_24"
+            android:summary="Clear all profiles from Bayard database"
+            />
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:title="Bulk Delete TE Markers"
+            android:key="bulkDeleteTEMarkers"
+            app:icon="@drawable/ic_baseline_delete_sweep_24"
+            android:summary="Clear all markers from Bayard database"
+            />
+
+        <PreferenceCategory>
+        <SeekBarPreference
+            app:defaultValue="33"
+            android:defaultValue="33"
+            android:max="69"
+            android:key="r1Velocity"
+            app:showSeekBarValue="true"
+            android:summary="Inner Ring Rotation Speed (msec)"
+            app:icon="@drawable/ic_baseline_rotate_left_24"
+            android:title="R1 Velocity">
+
+        </SeekBarPreference>
+
+        <SeekBarPreference
+            app:defaultValue="33"
+            android:defaultValue="33"
+            android:max="69"
+            android:key="r2Velocity"
+            app:showSeekBarValue="true"
+            android:summary="Mid Ring Rotation Speed (msec)"
+            app:icon="@drawable/ic_baseline_rotate_right_24"
+            android:title="R2 Velocity">
+
+        </SeekBarPreference>
+
+        <SeekBarPreference
+            app:defaultValue="33"
+            android:defaultValue="33"
+            android:max="69"
+            android:key="r3Velocity"
+            app:showSeekBarValue="true"
+            android:summary="Outer Ring Rotation Speed (msec)"
+            app:icon="@drawable/ic_baseline_rotate_left_24"
+            android:title="R3 Velocity">
+
+        </SeekBarPreference>
+    </PreferenceCategory>
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:title="Find M.E. Smartwatch"
+            android:key="sosBayard"
+            app:icon="@drawable/ic_baseline_satellite_alt_24"
+            android:summary="Activate SOS on connected wearable"
+            />
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="false"
+            android:title=" "
+            android:key="nullPreference"
+            android:summary=" "
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

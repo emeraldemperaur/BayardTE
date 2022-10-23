@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/bte_swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/bte_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/bayard_info_box"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+
+
+        <VideoView
+            android:id="@+id/bayard_video_box"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop = "true"
+            android:layout_alignParentLeft = "true"
+            android:layout_alignParentRight = "true"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <ImageView
+            android:id="@+id/bayard_img_box"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/holiday_bckgrnd"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/bayard_screen_box"
+            android:visibility="visible"
+            android:scaleType="fitXY"
+            android:src="@color/te_transparent"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"/>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <TextView
+
+                android:id="@+id/bte_country_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="69dp"
+                android:fontFamily="@font/montserratbold"
+                android:letterSpacing="0.33"
+                android:text="     "
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/bte_country_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:fontFamily="@font/montserratregular"
+                android:letterSpacing="0.33"
+                android:text="@string/country"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/bte_country_text"
+                app:layout_constraintRight_toRightOf="@id/bte_country_text"
+                app:layout_constraintTop_toBottomOf="@id/bte_country_text" />
+
+            <TextClock
+                android:id="@+id/bte_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="6dp"
+                android:fontFamily="@font/montserratmedium"
+                android:format12Hour="hh:mm"
+                android:format24Hour="hh:mm"
+                android:letterSpacing="0.33"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextClock
+                android:id="@+id/bte_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:fontFamily="@font/montserratregular"
+                android:format24Hour="a"
+                android:letterSpacing="0.33"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="@id/bte_time_text"
+                app:layout_constraintTop_toBottomOf="@id/bte_time_text" />
+
+
+            <TextView
+                android:id="@+id/bte_city_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/montserratmedium"
+                android:letterSpacing="0.33"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bte_country_title" />
+
+            <TextView
+                android:id="@+id/bte_city_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/montserratregular"
+                android:letterSpacing="0.33"
+                android:text="@string/city"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bte_city_text" />
+
+            <TextView
+                android:id="@+id/bte_province_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/montserratmedium"
+                android:letterSpacing="0.33"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bte_city_title" />
+
+            <TextView
+                android:id="@+id/bte_province_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/montserratregular"
+                android:letterSpacing="0.33"
+                android:text="@string/province"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bte_province_text" />
+
+            <TextView
+                android:id="@+id/bte_weather_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="119dp"
+                android:fontFamily="@font/montserratbold"
+                android:letterSpacing="0.21"
+                android:text="@string/_no_c"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/bte_country_text" />
+
+            <TextView
+                android:id="@+id/bte_weather_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/montserratregular"
+                android:letterSpacing="0.33"
+                android:text="@string/weather"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="@id/bte_weather_text"
+                app:layout_constraintTop_toBottomOf="@id/bte_weather_text" />
+
+
+            <TextView
+                android:id="@+id/bte_tz_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/montserratregular"
+                android:format24Hour="z"
+                android:letterSpacing="0.21"
+                android:maxLines="2"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="@id/bte_time_text"
+                app:layout_constraintTop_toBottomOf="@id/bte_province_title" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/bayard_info_box_line"
+        app:layout_constraintTop_toBottomOf="@id/bayard_info_box"
+        android:elevation="33dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/bayard_atlas_markers"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/bayard_info_box_line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bayard_atlas_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="22dp"
+            android:letterSpacing="0.44"
+            android:fontFamily="@font/montserratsemibold"
+            android:textStyle="normal"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/te_atlas_n_marker"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/bte_city_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bayard_tem_box_line"
+        app:layout_constraintTop_toBottomOf="@id/bayard_atlas_markers"
+        android:elevation="33dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:layout_constraintTop_toBottomOf="@id/bayard_tem_box_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="69dp"
+        android:layout_width="match_parent"
+        android:id="@+id/bayard_hub_rv"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/bayard_results_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginTop="69dp"
+        android:letterSpacing="0.33"
+        android:fontFamily="@font/montserratlight"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="No Results Found"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/bayard_tem_box_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/bayard_pending_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginTop="111dp"
+        android:letterSpacing="0.40"
+        android:fontFamily="@font/montserratlight"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Loading..."
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/bayard_tem_box_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="69dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/bte_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="0dp"
+        android:letterSpacing="0.33"
+        android:fontFamily="@font/montserratlight"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        app:layout_constraintTop_toBottomOf="@id/bayard_hub_rv"
+        android:textColor="@color/black"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

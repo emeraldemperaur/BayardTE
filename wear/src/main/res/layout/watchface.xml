@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bte_r1"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bayard_r1"
+        android:layout_width="230dp"
+        android:layout_height="230dp"/>
+
+    <ImageView
+        android:id="@+id/bte_r2"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bayard_r2"
+        android:layout_width="230dp"
+        android:layout_height="230dp"/>
+
+    <ImageView
+        android:id="@+id/bte_r3_v2"
+        android:visibility="visible"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bayard_black_r3_v2"
+        android:layout_width="230dp"
+        android:layout_height="230dp"/>
+
+    <ImageView
+        android:id="@+id/bte_r3b_v2"
+        android:visibility="visible"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingEnd="3dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/bayard_white_r3_v2"
+        android:layout_width="230dp"
+        android:layout_height="230dp"/>
+
+    <TextView
+        android:id="@+id/bte_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="69dp"
+        android:fontFamily="@font/montserratbold"
+        android:letterSpacing="0.11"
+        android:text=""
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratbold"
+        android:letterSpacing="0.11"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratlight"
+        android:letterSpacing="0.11"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_timeZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratbold"
+        android:letterSpacing="0.03"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:maxLength="24"
+        android:ellipsize="end"
+        android:singleLine="false"
+        android:scrollHorizontally="true"
+        android:textSize="4.4sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratbold"
+        android:letterSpacing="0.06"
+        android:text="@string/calgary"
+        android:maxLength="25"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratsemibold"
+        android:letterSpacing="0.06"
+        android:text="@string/_10_c"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/bte_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="69dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserratbold"
+        android:letterSpacing="0.11"
+        android:text="@string/me"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</FrameLayout>

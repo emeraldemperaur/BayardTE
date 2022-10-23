@@ -1,0 +1,105 @@
+<resources>
+
+    <string name="app_name">BayardTE</string>
+    <string name="meka_egwim">Meka Egwim</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="bayard">BAYARD</string>
+    <string name="m_e_time_experience">M.E. Time Experience</string>
+    <string name="close">close</string>
+    <string name="wear_os">Wear OS</string>
+    <string name="oem">OEM</string>
+    <string name="citizen_watch_company">Citizen Watch Company</string>
+    <string name="model">Model</string>
+    <string name="cz_smart">CZ Smart</string>
+    <string name="wos_version">wOS VERSION</string>
+    <string name="_3_0">3.0</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="_96">96%</string>
+    <string name="exit">Exit</string>
+    <string name="wear">Wear</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="meka">meka</string>
+    <string name="about">About</string>
+    <string name="website">Website</string>
+    <string name="www_mekaegwim_ca">www.mekaegwim.ca</string>
+    <string name="instagram">Instagram</string>
+    <string name="chromito_me">chromito.me</string>
+    <string name="github">Github</string>
+    <string name="emeraldemperaur">emeraldemperaur</string>
+    <string name="designer_developer"><![CDATA[<DESIGNER/DEVELOPER>]]></string>
+    <string name="te_atlas">TE Atlas</string>
+    <string name="add_marker">add marker</string>
+    <string name="create">create</string>
+    <string name="geodata">Geodata</string>
+    <string name="country">Country</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="can">CAN</string>
+    <string name="calgary">Calgary</string>
+    <string name="alberta">Alberta</string>
+    <string name="state_province">STATE/PROVINCE</string>
+    <string name="city">City</string>
+    <string name="time_zone">Time Zone</string>
+    <string name="mountain_standard_time">Mountain Standard Time</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="_51_048615">51.048615</string>
+    <string name="_114_070847">-114.070847</string>
+    <string name="marker_alias">Alias</string>
+    <string name="time_experience">Time Experience</string>
+    <string name="time_experience_context">Bayard:TE is an interactive watch face service and companion mobile app developed by ME for Wear OS implementing Java, Kotlin, Android Jetpack, Room Persistence Library, Palette API, Google Play Services, Complications API and Location Services to provide the wearable user with a uniquely vivid and dapper time experience</string>
+    <string name="profile">profile</string>
+    <string name="chroma">Chroma</string>
+    <string name="active">Active</string>
+    <string name="pending">Pending</string>
+    <string name="apply">apply</string>
+    <string name="custom_profile_s">Custom Profile(s)</string>
+    <string name="add_ncustom_profile">Add\nCustom Profile</string>
+    <string name="custom_chroma_s">custom chroma(s)</string>
+    <string name="_800020">#800020</string>
+    <string name="_006400">#006400</string>
+    <string name="_0c204f">#0c204f</string>
+    <string name="monochrome">Monochrome</string>
+    <string name="ffd100">#FFD100</string>
+    <string name="_3a243b">#3a243b</string>
+    <string name="ee7600">#ee7600</string>
+    <string name="local_time">local time</string>
+    <string name="_11_59_pm">11:59 PM</string>
+    <string name="_8_km_away">8 Km</string>
+    <string name="wearable_name">Wearable Name</string>
+    <string name="account_profile">account profile</string>
+    <string name="bayard_te">Bayard:TE</string>
+    <string name="about_wearable">About Wearable</string>
+    <string name="wear_synopsis">Wear Synopsis</string>
+    <string name="about_m_e">About M.E.</string>
+    <string name="chroma_profile">Chroma Profile</string>
+    <string name="settings">Settings</string>
+    <string name="pm">PM</string>
+    <string name="_7_50">7:50</string>
+    <string name="province">Province</string>
+    <string name="_22_c">22°C</string>
+    <string name="_14_c">14°C</string>
+    <string name="_no_c">--°C</string>
+    <string name="weather">weather</string>
+    <string name="te_atlas_n_marker">Atlas\n Markers</string>
+    <string name="title_activity_settings_preferences">SettingsPreferencesActivity</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="_2022_meka_egwim">©2022 M.E.</string>
+    <string name="nbsp">         </string>
+
+</resources>

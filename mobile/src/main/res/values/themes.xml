@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BayardTE" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="InfoButtonTheme">
+        <item name="android:fontFamily">@font/montserratlight</item>
+        <item name="lineSpacing">0.20dp</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+    <style name="MEInfoButtonTheme">
+    <item name="android:fontFamily">@font/montserratlight</item>
+    <item name="lineSpacing">0.20dp</item>
+    <item name="colorAccent">@color/chiron_deep_green</item>
+    <item name="colorPrimary">@color/chiron_deep_green</item>
+    <item name="android:textColorSecondary">@color/chiron_deep_green</item>
+    </style>
+
+    <style name="EditInfoButtonTheme">
+        <item name="android:fontFamily">@font/montserratlight</item>
+        <item name="lineSpacing">0.20dp</item>
+        <item name="colorAccent">@color/chiron_red</item>
+        <item name="colorPrimary">@color/chiron_red</item>
+        <item name="android:textColorSecondary">@color/chiron_red</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:colorControlActivated">@android:color/white</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:colorControlHighlight">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="TextInputEditText" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:colorControlActivated">@android:color/white</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:colorControlHighlight">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="BarTheme" parent="Theme.BayardTE">
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="colorPrimaryVariant">#00FFFFFF</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="SideMenuTheme">
+        <item name="color">@color/chiron_blue</item>
+        <item name="colorAccent">@color/chiron_blue</item>
+        <item name="android:textColor">@color/chiron_blue</item>
+        <item name="android:fontFamily">@font/montserratlight</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineSpacing">0.20dp</item>
+        <item name="android:textColorSecondary">@color/chiron_blue</item>
+
+    </style>
+
+    <style name="TETheme" parent="Theme.BayardTE">
+        <item name="actionBarStyle">@style/TETheme.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="TETheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="elevation" tools:targetApi="lollipop">0dp</item>
+        <item name="background">@color/semi_transparent</item>
+    </style>
+
+    <style name="ColorPickerTheme">
+        <item name="android:fontFamily">@font/montserratregular</item>
+        <item name="lineSpacing">0.20dp</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="colorPrimary">@color/chiron_deep_green</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+</resources>

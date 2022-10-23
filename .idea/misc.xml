@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/drawable/deep_silver.xml" value="0.1" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_about_meactivity.xml" value="0.176" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_atlas_edit.xml" value="0.4" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_bteactivity.xml" value="0.176" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_chroma_profile.xml" value="0.4" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_init.xml" value="0.2" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_launch.xml" value="0.176" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_main.xml" value="0.121875" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_teactivity.xml" value="0.264" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/activity_wear_synopsis.xml" value="0.176" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/bte_view.xml" value="0.292" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/chroma_list_view.xml" value="0.264" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/settings_activity.xml" value="0.176" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/side_menu_top_view.xml" value="0.4" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/te_marker_list_view.xml" value="0.264" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/layout/tf_marker_list_view.xml" value="0.2" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/menu/hub_side_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/menu/hub_toolmenu.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/mobile/src/main/res/xml/bte_preferences.xml" value="0.4" />
+        <entry key="..\:/Users/Emeka/Documents/Empiaur/BayardTE/wear/src/main/res/layout/watchface.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

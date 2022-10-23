@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wear_synopsis_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.WearSynopsisActivity">
+
+    <ImageView
+        android:padding="3dp"
+        android:id="@+id/info_close"
+        android:contentDescription="@string/close"
+        android:src="@drawable/ic_baseline_close_24"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="21dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/chiron_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginRight="3dp"
+        android:letterSpacing="0.44"
+        android:text="@string/wear"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserratbold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/wear_synopsis_subtitle"
+        android:fontFamily="@font/montserratregular"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:letterSpacing="0.22"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/chiron_info_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/synopsis"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/wear_synopsis_line"
+        app:layout_constraintTop_toBottomOf="@id/wear_synopsis_subtitle"
+        android:visibility="visible"
+        android:elevation="33dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/chiron_tools_layout"
+        android:padding="13dp"
+        android:layout_marginTop="33dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/wear_synopsis_line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/wear_os"
+            android:scaleType="fitXY"
+            android:id="@+id/chiron_tool_spring"
+            android:layout_marginEnd="33dp"
+            android:src="@drawable/wear_os_svgicon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+
+        <TextView
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/wearable_name"
+            android:letterSpacing="0.23"
+            android:fontFamily="@font/montserratlight"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:layout_marginTop="33dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chiron_tools_layout"
+            android:id="@+id/chiron_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <!---cView-->
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        android:background="?android:selectableItemBackground"
+        android:layout_marginTop="23dp"
+        android:elevation="33dp"
+        app:cardElevation="33dp"
+        app:layout_constraintTop_toBottomOf="@id/chiron_tools_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/wearable_credentials_card"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/black"
+            android:padding="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/server_credentials"
+                android:textSize="16sp"
+                android:letterSpacing="0.33"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/chiron_info_text"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/oem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/server_status"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_credentials"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:letterSpacing="0.21"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/citizen_watch_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/server_localhost"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_status"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:letterSpacing="0.33"
+                android:lines="1"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/wear_os__model"
+                android:textSize="14sp"
+                android:lines="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_localhost"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/cz_smart"
+                android:letterSpacing="0.21"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/wear_os_version"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_status"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:letterSpacing="0.33"
+                android:lines="1"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/wear_os"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/wear_os_version_text"
+                android:textSize="14sp"
+                android:lines="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_localhost"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/_3_0"
+                android:letterSpacing="0.21"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/battery_level"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_status"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:letterSpacing="0.33"
+                android:lines="1"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/battery_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/battery_level_text"
+                android:textSize="33sp"
+                android:lines="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/server_localhost"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/chiron_green"
+                android:textStyle="normal"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/_96"
+                android:letterSpacing="0.21"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!---cView-->
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <View
+        android:id="@+id/wear_synopsis_bottom_line"
+        app:layout_constraintTop_toBottomOf="@id/wearable_credentials_card"
+        android:visibility="visible"
+        android:elevation="33dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:theme="@style/InfoButtonTheme"
+        android:id="@+id/wear_synopsis_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="12dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="23dp"
+        android:text="@string/exit"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.12"
+        android:fontFamily="@font/montserratmedium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wear_synopsis_bottom_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

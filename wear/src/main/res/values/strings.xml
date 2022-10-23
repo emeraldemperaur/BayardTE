@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BayardTE</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_analog_name">My Analog</string>
+    <string name="calgary">Calgary</string>
+    <string name="_10_c">10°C</string>
+    <string name="_09">09</string>
+    <string name="_30">30</string>
+    <string name="pm">PM</string>
+    <string name="mountain_standard_time">Mountain Standard Time</string>
+    <string name="me">メカ</string>
+</resources>

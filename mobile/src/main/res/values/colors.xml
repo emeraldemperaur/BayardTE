@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="chiron_blue">#0c204f</color>
+    <color name="none">#00FFFFFF</color>
+    <color name="chiron_grey">#A9A9A9</color>
+    <color name="chiron_deep_grey">#989797</color>
+    <color name="chiron_red">#800020</color>
+    <color name="chiron_green">#006400</color>
+    <color name="chiron_deep_green">#013220</color>
+    <color name="chiron_deep_yellow">#FFD100</color>
+    <color name="chiron_deep_purple">#3a243b</color>
+    <color name="chiron_deep_orange">#ee7600</color>
+    <color name="semi_transparent">#66000000</color>
+    <color name="te_transparent">#30000000</color>
+    <color name="screen_transparent">#10000000</color>
+
+</resources>

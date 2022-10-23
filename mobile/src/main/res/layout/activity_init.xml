@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nue_bckgrnd"
+    tools:context=".view.InitActivity">
+
+    <iot.empiaurhouse.bayardte.utils.TypeWriterTextView
+        android:visibility="invisible"
+        android:id="@+id/vanta_intro_greeting"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserratlight"
+        android:letterSpacing="0.29"
+        android:text="@string/good_morning"
+        android:layout_marginTop="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/vanta_intro_greeting_line"
+        app:layout_constraintTop_toBottomOf="@id/vanta_intro_greeting"
+        android:visibility="invisible"
+        android:elevation="33dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+
+    <ImageView
+        android:id="@+id/intro_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+
+    <iot.empiaurhouse.bayardte.utils.TypeWriterTextView
+        android:visibility="invisible"
+        android:id="@+id/bayard_intro_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserratregular"
+        android:letterSpacing="0.33"
+        android:text="@string/bayard"
+        android:layout_marginTop="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vanta_intro_greeting_line"
+        app:layout_constraintBottom_toTopOf="@id/bayard_intro_logo_line"
+        android:contentDescription="@string/meka_egwim"
+        app:tint="@color/white" />
+
+    <iot.empiaurhouse.bayardte.utils.TypeWriterTextView
+        android:visibility="invisible"
+        android:id="@+id/bayard_intro_subtitle"
+        app:layout_constraintTop_toBottomOf="@id/bayard_intro_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserratlight"
+        android:letterSpacing="0.26"
+        android:text="@string/m_e_time_experience"
+        android:layout_marginTop="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:id="@+id/bayard_intro_logo_line"
+        app:layout_constraintTop_toBottomOf="@id/bayard_intro_logo"
+        android:visibility="invisible"
+        android:elevation="33dp"
+        android:layout_marginTop="69dp"
+        android:background="@color/chiron_grey"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="1dp"/>
+
+    <ImageView
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bayard_intro_logo_line"
+        android:scaleType="fitXY"
+        android:id="@+id/vanta_intro_progress"
+        android:src="@drawable/me_white_logo"
+        android:layout_marginTop="33dp"
+        android:layout_width="69dp"
+        android:layout_height="69dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

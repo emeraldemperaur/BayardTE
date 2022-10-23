@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/bayard_te_menu"
+            android:icon="@drawable/ic_baseline_watch_24"
+            android:title="@string/bayard_te" />
+
+    </group>
+
+    <group android:id="@+id/menu2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/wear_synopsis_menu"
+            android:icon="@drawable/wear_os_svgicon"
+            android:title="@string/wear_synopsis" />
+    </group>
+    <group android:id="@+id/menu3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/about_me_menu"
+            android:icon="@drawable/me_white_logo"
+            android:title="@string/about_m_e" />
+
+    </group>
+
+    <group android:id="@+id/menu4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/chroma_profile"
+            android:icon="@drawable/ic_baseline_color_lens_24"
+            android:title="@string/chroma_profile" />
+
+    </group>
+
+    <group android:id="@+id/menu5" android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/ic_baseline_settings_suggest_24"
+            android:title="@string/settings"
+            />
+    </group>
+
+    <group android:id="@+id/menu6" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_none"
+            android:title=""
+            android:visible="false"/>
+    </group>
+</menu>
