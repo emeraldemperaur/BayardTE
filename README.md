@@ -38,4 +38,5 @@ Wearable
 ![image](imgstore/bte_screenshots4.png)
 &nbsp;
 &nbsp;
+#### Bayard - Watch Face
 ![image](imgstore/bte_preview.gif)
