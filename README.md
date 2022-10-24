@@ -1,5 +1,5 @@
-# Triage /trēˈäZH/
-## Chiron Medical Practice Management System - Mobile Data Pivot & Analysis Tool (Android MVVM)
+# Bayard /beɪəd/
+## Bayard: Time Experience - Watch Face Service & Companion Mobile App (Android MVVM)
 
 ### Overview
 <p align="justify">Bayard:Time Experience is an interactive watch face service and companion mobile app developed by ME for Wear OS implementing Java, Kotlin, Android Jetpack, Room Persistence Library, Palette API, Message Client, Complications API and Location Services to provide the wearable user with a uniquely vivid and dapper time experience</p>
@@ -35,4 +35,5 @@ Wearable
 &nbsp;
 ![image](imgstore/preferencesscreenshots.png)
 &nbsp;
-![image](imgstore/bte.gif)
+&nbsp;
+![image](imgstore/bte_preview.gif)

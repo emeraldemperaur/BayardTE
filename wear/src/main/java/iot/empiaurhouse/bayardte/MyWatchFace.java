@@ -318,6 +318,9 @@ public class MyWatchFace extends CanvasWatchFaceService {
                         bteZone.setVisibility(View.VISIBLE);
                         bteTemp.setVisibility(View.VISIBLE);
                         bteCity.setVisibility(View.VISIBLE);
+                        bteRing1.setColorFilter(Color.WHITE);
+                        bteRing2.setColorFilter(Color.WHITE);
+                        bteRing3.setColorFilter(Color.BLACK);
                         bteRing3B.setColorFilter(Color.WHITE);
                         bteME.setVisibility(View.INVISIBLE);
 
@@ -329,9 +332,11 @@ public class MyWatchFace extends CanvasWatchFaceService {
                         bteZone.setVisibility(View.INVISIBLE);
                         bteTemp.setVisibility(View.INVISIBLE);
                         bteCity.setVisibility(View.INVISIBLE);
+                        bteRing1.setColorFilter(Color.WHITE);
+                        bteRing2.setColorFilter(Color.WHITE);
+                        bteRing3.setColorFilter(Color.WHITE);
                         bteRing3B.setColorFilter(Color.BLACK);
                         bteME.setVisibility(View.VISIBLE);
-
 
                     }
                     Toast.makeText(getApplicationContext(), R.string.message, Toast.LENGTH_LONG)
