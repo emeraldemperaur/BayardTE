@@ -25,15 +25,17 @@ Wearable
 &nbsp;
 #### Dashboard
 &nbsp;
-![alt text](imgstore/dashboardscreenshots.png)
+![alt text](imgstore/bte_screenshots1.png)
+&nbsp;
+![image](imgstore/bte_screenshots2.png)
 &nbsp;
 #### Chroma Profiles
 &nbsp;
-![image](imgstore/datapivotsscreenshotsI.png)
+![image](imgstore/bte_screenshots3.png)
 &nbsp;
 #### Settings
 &nbsp;
-![image](imgstore/preferencesscreenshots.png)
+![image](imgstore/bte_screenshots4.png)
 &nbsp;
 &nbsp;
 ![image](imgstore/bte_preview.gif)
